@@ -1,0 +1,34 @@
+/*selector universal*/
+/* *{
+    background-color: red;
+} */
+header{
+    background-color: chartreuse;
+}
+main{
+    background-color: antiquewhite;
+}
+body{
+    background-color: aqua;
+}
+img{
+    width: 50%;
+}
+h3{
+    background-color: blueviolet;
+    text-align: center;
+}
+footer{
+    background-color: red;
+}
+/* p{
+    background-color: rgb(255, 138, 232);
+} */
+/* selector de clases */
+.parrafo{
+    background-color: darkorange;
+    color: darkgreen;
+}
+.centrarimg{
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+img{
+    width: 25%;
+}
+body{
+    background-color: dodgerblue;
+}
+section{
+    background-color:rgb(42, 212, 254);
+}
+h2{
+    background-color: rgb(0, 0, 0);
+    color: beige;
+}
+h3{background-color: rgb(81, 174, 81);
+color: white;
+}
+p{
+    background-color:maroon;
+    color: cornsilk
+}
+footer{
+    background-color: darkgoldenrod;
+}
+.centerimg{
+    text-align: center;
+}
