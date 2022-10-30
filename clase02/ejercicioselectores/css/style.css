@@ -1,0 +1,46 @@
+ body {
+     background-image: url("/ejercicioselectores/carretera.webp");
+     ;
+ }
+
+ .imagen {
+     width: 25%;
+     height: 15%;
+     border: 10px solid rgb(162, 111, 111);
+ }
+
+ /* Seolector descendiente */
+p {
+     background: rgb(21, 130, 227);
+     background: linear-gradient(90deg, rgba(21, 130, 227, 1) 1%, rgba(15, 136, 200, 1) 49%, rgba(5, 185, 237, 1) 80%, rgba(0, 209, 255, 1) 100%);
+     text-align: justify;
+     letter-spacing:20px;
+     text-decoration:underline;
+     word-spacing:5px;
+ }
+
+ header h1 {
+     background-color: brown;
+     text-align: center;
+ }
+
+ h3,
+ p {
+     background: rgb(21, 130, 227);
+     background: linear-gradient(90deg, rgba(21, 130, 227, 1) 1%, rgba(15, 136, 200, 1) 49%, rgba(5, 185, 237, 1) 80%, rgba(0, 209, 255, 1) 100%);
+ }
+
+ /* SELECTOR HIJO */
+ section>h2 {
+     background-color: black;
+     color: white;
+     text-align: center;
+ }
+ h3{
+    text-align: center;
+ }
+
+ footer>h1 {
+     background-color: rgb(75, 174, 75);
+
+ }

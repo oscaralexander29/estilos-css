@@ -1,0 +1,55 @@
+/*SELECTOR UNIVERSAL*/
+/* *{
+    background-color:rgb(226, 144, 185);
+} */
+/*slector etiqueta*/
+body {
+    background-color: rgb(48, 98, 141);
+    height: 1px;
+}
+
+h1 {
+    background-color: aquamarine;
+    color: rgb(29, 37, 80);
+    padding: 10px;
+}
+section{
+    background-color: aliceblue;
+}
+h2{
+    background-color: aquamarine;
+}
+/*SELECTOR DE CLASE*/
+.imagen {
+    width: 35%;
+    height: 8%;
+    border: 5px solid rgb(0, 255, 208);
+}
+
+.imagenMM {
+    width: 35%;
+    height: 8%;
+    border: 5px solid rgb(255, 0, 225);
+}
+
+/*SELECTOR DE IDENTIFICADOR O ID*/
+#titulo{
+    background-color: brown;
+}
+/*SELECTOR DESCENDIENTE*/
+section ul{
+    background-color: chartreuse;
+}
+/*COMBINACION DE SELECTORES*/
+h3,p{
+    background-color: yellowgreen ;
+}
+/* SELECTOR HIJO */
+section>h2{
+    background-color: black;
+    color: white;
+}
+/* SELECTOR ADYACENTE */
+div+p{
+    background-color: khaki;
+}
